@@ -6,6 +6,7 @@ public:
 	Calendar(){}
 	~Calendar(){}
 
+	void getDate(){}
 	void getDays(int year, int month, int days){}
 	void showCalendar(){
 		int firstDay=0;
