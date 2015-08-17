@@ -5,6 +5,8 @@ class Calendar{
 public:
 	Calendar(){}
 	~Calendar(){}
+
+	void getDays(int year, int month, int days){}
 	void showCalendar(){
 		int firstDay=0;
 		for(int month=1; month<13; month++){
